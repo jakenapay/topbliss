@@ -1,0 +1,41 @@
+:root {
+    --brown: #9e7235;
+    --white: #f8f8f8;
+    --timesNewRoman: 'Times New Roman';
+    --arial: 'Arial';
+}
+
+*,  html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 0;
+    background-color: var(--brown) !important;
+    text-align: center;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar #imageLogo {
+    height: auto;
+}
+
+.navbar .nav-link {
+    color: var(--white) !important;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 1;
+    font-family: var(--timesNewRoman);
+}
+
+.navbar .nav-link .fa-brands {
+    font-size: 2rem;
+}

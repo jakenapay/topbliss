@@ -1,0 +1,306 @@
+#imageLogo {
+    border-radius: 50%;
+    width: 60px;
+    margin: 1rem;
+}
+
+.page1 {
+    background-image: url('https://symbols.my.canva.site/topbliss/images/b022f5a874286a195f7721d03de36bd6.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    padding-top: 150px;
+}
+
+
+.page1 .simple-text {
+    font-family: var(--arial);
+    font-weight: 800;
+}
+
+.page1 img {
+    position: absolute;
+    height: auto;
+}
+
+.page1 .page-one-text {
+    color: var(--white);
+}
+
+#welcomeText {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+}
+
+.pageOneImageContainer {
+    position: relative;
+}
+
+
+/*
+@media screen and (min-width: 720px)  {
+    #topImage {
+        width: 30%;
+        position: absolute;
+        top: 20px;
+        left: 165px;
+        z-index: 2;
+    }
+
+    #blissImage {
+        width: 40%;
+        position: absolute;
+        top: 5px;
+        right: 100px;
+        z-index: 1;
+
+    }
+
+    #arrowImage {
+        position: absolute;
+        z-index: 3;
+        top: 80px;
+        right: 85px;
+        width: 45%;
+        transform: rotate(180deg);
+    }
+} */
+
+
+#learnMore {
+    margin-top: 5rem;
+    color: rgb(112, 46, 16);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.fa-angles-down {
+    color: var(--brown);
+    font-size: 4rem;
+}
+
+
+/* page 2 */
+
+.page2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #efdfbb;
+}
+
+#firstBlockPage2 {
+    background: url("https://symbols.my.canva.site/topbliss/images/5b4d3c2d10f5b6874a4b19486919355d.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15rem 0;
+}
+
+#secondBlockPage2 {
+    background: url("https://symbols.my.canva.site/topbliss/images/50c3b890087b8f6793d013311a69e923.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15rem 0;
+}
+
+.buttonAbout {
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    background: rgb(150, 150, 150);
+    background: linear-gradient(107deg, rgba(150, 150, 150, 1) 0%, rgba(255, 255, 255, 1) 57%, rgba(255, 255, 255, 1) 100%);
+}
+
+.nameofButton {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#page2text {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: #704241;
+}
+
+#distributorProducts {
+    margin-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 100;
+    color: #704241;
+}
+
+.image-distributor-product {
+    border: none;
+    border-radius: 15px;
+}
+
+.dpBox {
+    border: 1px solid #704241;
+    padding: 10px;
+}
+
+.distributorProductNames {
+    color: #704241;
+}
+
+.dpPromoText {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.dpName {
+    font-weight: 100;
+    text-align: left;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dpPrice {
+    text-align: left;
+}
+
+/* page3 */
+
+.page3 {
+    background-image: radial-gradient(#c19a6ba9, #ffffff00), url('https://symbols.my.canva.site/topbliss/images/cbd38824f1c6c30b2e0316cced1c4efb.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    padding: 150px 0;
+}
+
+#titleText {
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 100;
+    color: #704241;
+}
+
+.quote-symbol {
+    max-width: 25px;
+    margin-bottom: 20px;
+}
+
+.quotes {
+    font-size: 1rem;
+    color: var(--white);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.dash,
+#titleText,
+.quoteBy {
+    color: var(--white);
+}
+
+.quoteBy {
+    font-weight: 500;
+}
+
+
+/* page 4 */
+
+.page4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b4423;
+    padding: 5rem 0;
+    color: var(--white);
+    min-height: 70vh;
+}
+
+#titleText4 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.detailsText {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.socialMediaIcons {
+    font-size: 1.5rem;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    padding: 5px 5px;
+    color: var(--white);
+}
+
+.boxes {
+    border: 1px solid var(--white);
+    padding: 15px 5px;
+}
+
+#tagUsText {
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: 600;
+    border: 1px solid var(--white);
+}
+
+#secondImagePage5 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#peopleImage {
+    transform: scaleX(-1);
+}
+
+.aboutUsText {
+    font-size: 1rem;
+    padding: 0 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 50px;
+}
+
+#mainTitlePage5 {
+    padding: 0 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    color: var(--brown);
+}
+
+.page6 {
+    /* background-image: url('https://symbols.my.canva.site/topbliss/images/68862d3f1df4676ed41874958b09c090.png'); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* min-height: 100vh; */
+}
+
+.page7 {
+    /* background-image: url('https://symbols.my.canva.site/topbliss/images/65f475ec3756f200220d64ecbef2f07c.png'); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    /* min-height: 100vh; */
+}
+
+.wallpaper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
